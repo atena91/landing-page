@@ -1,0 +1,242 @@
+@font-face {
+    font-family: "Vazir";
+    src: url(font/vazir-font-v16.1.0/Vazir.eot);
+    src: url(font/vazir-font-v16.1.0/Vazir.woff2) format("woff2"),
+        url(font/vazir-font-v16.1.0/Vazir.woff) format("woff"),
+        url(font/vazir-font-v16.1.0/Vazir.ttf) format("truetype");
+}
+
+body {
+    font-family: "Vazir";
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.read-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800px;
+}
+
+.groe {
+    transition: 0.5;
+
+    &:hover {
+        transform: scale(1.1);
+
+    }
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.5 !important;
+}
+
+.content {
+    background-color: #D5DEEF;
+    padding: 40px;
+    margin-left: 0px;
+}
+
+.headerscrol {
+    background-color: #fff;
+    box-shadow: 0px 2px 20px rgb(1, 41, 12 / 10%);
+}
+
+.navbar {
+    transition: 0.5s;
+    padding: 20px 0;
+}
+
+.number i.red {
+    color: lightsalmon;
+}
+
+.number i.blue {
+    color: lightblue;
+}
+
+.number i.pink {
+    color: lightpink;
+}
+
+.number i.green {
+    color: lightgreen;
+}
+
+.transf {
+    &:hover {
+        transform: scale(1.1);
+        background-color: lightyellow;
+    }
+}
+
+.services .service-box {
+    box-shadow: 0px 0 30px rgba(0, 0, 0, 0.08);
+    padding: 60px 30px;
+    text-align: center;
+    border-radius: 5px;
+    transition: all 0.;
+}
+
+.services .service-box .icon {
+    font-size: 36px;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 4px;
+    line-height: 0;
+
+}
+
+.services .service-box .read-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+}
+
+.services .service-box:hover .read-more {
+    color: #fff;
+}
+
+.services .service-box .read-more i {
+    font-size: 18px;
+    line-height: 0;
+    margin-right: 10px;
+    padding: 0;
+    border-radius: 4px;
+
+}
+
+.services .service-box.blue .icon {
+    background: #dbf3fe;
+    color: #064463;
+
+}
+
+.services .service-box.blue {
+    border-bottom: 3px solid #2db6fa;
+}
+
+/* .services .service-box.blue .read-more i{
+   background-color: #fff;
+} */
+
+.services .service-box.blue:hover {
+    background-color: #2db6fa;
+    color: #fff;
+
+}
+
+
+.services .service-box:hover .icon {
+    background-color: #fff;
+}
+
+/* orange */
+
+.services .service-box.navy .icon {
+    background: #dbf3fe;
+    color: #064463;
+
+}
+
+.services .service-box.navy:hover {
+    background-color: #064463;
+    color: #fff;
+
+}
+
+/* blue */
+
+
+.services .service-box.lightblue .icon {
+    background: #dbf3fe;
+    color: #064463;
+
+}
+
+.services .service-box.lightblue:hover {
+    background-color: hsl(199, 36%, 82%);
+    color: #fff;
+
+}
+
+.pricing .card {
+    transition: 0.5s;
+}
+
+.pricing .card:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.contact .info-box {
+    background-color: #ebe4e4;
+    padding: 30px;
+}
+
+.contact .info-box i {
+    color: #4154f1;
+    line-height: 0;
+    font-size: 38px;
+}
+ 
+.contact .info-box .celphone {}
+
+.contact .contact-form {
+    background-color: #ebe4e4;
+    padding: 30px;
+    height: 100%;
+}
+
+.inti {
+    height: 100vh;
+    width: 100%;
+    background: url(img/intro-bg.png);
+    background-position: center;
+    margin-top: 100px;
+}
+
+
+.pa .social i{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.303);
+}
+
+.pa hr{
+    width: 70%;
+    height: 5px;
+}
+.pa .footer-link a{
+    color: black;
+}
+.pa .footer-link i{
+  font-size: 13px;
+}
+
+@media (max-width: 992px) {
+    .header {
+        background-color: #fff;
+    }
+}
+
+@media (max-width:567px) {
+    .baba {
+        align-items: center;
+    }
+}
